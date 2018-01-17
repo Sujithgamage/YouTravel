@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+#driver {
+	border-radius: 5px;
+	animation:alternate;
+    color: black;
+	font-size:20px;
+	margin:auto;
+	 
+}
+
+#ab {
+	background:  url("images/navi.jpg")  ;
+	border-radius: 15px;
+	animation:alternate;
+    color:White;
+	font-size:30px;
+	margin:auto;
+	 
+}
+#driver1 {
+	border-radius: 5px;
+	animation:alternate;
+    color: black;
+	font-size:20px;
+	margin:auto;
+	background: #ffffff url("images/hote.jpg")   no-repeat top right;
+}
+#customer {
+	border-radius: 15px;
+	animation:alternate;
+    color: black;
+	font-size:20px;
+	margin:auto;
+	background: #ffffff   no-repeat top right;
+}
+#chatbox 
+{
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #777;
+    border-radius: 2px 2px 2px 2px;
+    color: #6C6C6C;
+    height: 35px;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 10px 10px;
+    width: 65.5%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300
+}
+.btn-send{font-size: 20px; padding: 15px; font-weight: 300}
+.btn-clear{padding: 15px 25px; font-size: 20px; font-weight: 300}
+.logout{float: right; color: #fff; text-decoration: none; font-size: 15px}
+#box {
+  height: 100px;
+  width: 500px;
+  background: #FFFFFF;
+  font-size: 38px;
+  color: #000;
+  text-align: center;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   background-color: #f1f1f1;
+}
+
+li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+   background-color: #555;
+   color: white;
+} 
+
+
+table {
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 640px;
+border-collapse:
+collapse; border-spacing: 0;
+}
+td, th {
+border: 1px solid transparent; /* No more visible border */
+height: 30px;
+transition: all 0.3s; /* Simple transition for hover effect */
+}
+th {
+background: #DFDFDF; /* Darken header a bit */
+font-weight: bold;
+}
+td {
+background: #FAFAFA;
+text-align: center;
+}
